@@ -53,7 +53,7 @@ if "docs" in st.session_state and st.session_state.docs:
     - Cite a fonte (Arquivo e Página) no final.
     """
     
-    model = genai.GenerativeModel(model_name="gemini-1.5-pro", system_instruction=SYSTEM_PROMPT)
+    model = genai.GenerativeModel(model_name="gemini-2.5-pro", system_instruction=SYSTEM_PROMPT)
     
     # Mantém o chat ativo
     if "chat" not in st.session_state:
